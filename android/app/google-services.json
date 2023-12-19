@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "584122207062",
+    "project_id": "chataudioroom",
+    "storage_bucket": "chataudioroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584122207062:android:bd26875d2d3776c82624f7",
+        "android_client_info": {
+          "package_name": "com.ayahsujana.beellii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584122207062-5r8dmhaqeefeoc9m7ce0pqldou3mvd2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayahsujana.beellii",
+            "certificate_hash": "be91deb60260dc6a8e783398a71435fa0d62b8b6"
+          }
+        },
+        {
+          "client_id": "584122207062-8vavfadgglgvo3nql6kv1l953jbides4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzErdK1isIXKjb8_mybBkVbzCemNUnmsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584122207062-8vavfadgglgvo3nql6kv1l953jbides4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
