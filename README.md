@@ -1,6 +1,15 @@
-# beellii
+# Ngobrol Yukk
 
-A new Flutter project.
+Aplikasi Voice Room yang dimana kamu bisa membuat room dan mengobrol diwaktu yang sama dengan 8 teman kamu.
+Dibuat dengan framework Flutter dengan bantuan firebase sebagai login, membuat room dan profile dan menggunakan library ZegoCloud sebagai penyedia audio streamingnya.
+
+Berikut inti package yang digunakan:
+
+1. zego_uikit_prebuilt_live_audio_room: ^2.14.1
+2. google_sign_in: ^6.2.1
+3. cloud_firestore: ^4.13.6
+4. firebase_auth: ^4.15.3
+5. firebase_core: ^2.24.2
 
 ## Getting Started
 
