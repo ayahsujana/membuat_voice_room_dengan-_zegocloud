@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:beellii/core.dart';
 
@@ -20,14 +21,14 @@ class SplashController extends State<SplashView> {
 
   checkLogin() async {
     //print('TOKEN =====>>>>> ${AppSession.token}');
-    
-    if (AppSession.token == null) {
+
+    if (FirebaseAuth.instance.currentUser != null) {
       Future.delayed(const Duration(seconds: 2), () {
-        Get.offAll(const LoginView());
+        Get.offAll(const DashboardView());
       });
     } else {
       Future.delayed(const Duration(seconds: 2), () {
-        Get.offAll(const DashboardView());
+        Get.offAll(const LoginView());
       });
     }
   }

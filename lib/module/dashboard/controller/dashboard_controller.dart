@@ -12,7 +12,6 @@ class DashboardController extends State<DashboardView> {
   void initState() {
     instance = this;
     super.initState();
-    print('TOKEN =====>>>>> ${AppSession.token!.user!.uid}');
   }
 
   @override
